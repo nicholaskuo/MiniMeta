@@ -2,6 +2,11 @@ Welcome to Mini Meta, a Facebook-like web application which allows users to post
 
 The following technologies were used to build “Mini Meta.” In the frontend, we used React.js with JavaScript, HTML/CSS (with Bootstrap) to develop a user-friendly social media interface. Specifically for the frontend friend visualizer, our team utilzied React-graph-vis. For backend development, Node.js and Express was used to create the necessary API routes for the main functionality like posting, adding friends, commenting, and more. We used AWS DynamoDB for our application’s database to store user, posts, news, and chat data. For asynchronous HTTP data exchange between frontend and backend, we used Axios. For our news adsorption algorithm, we used Apache Spark on Amazon’s EMR for our back-end data analysis. Lastly, for our chat functionalities which required data to be sent from backend to frontend, we utilized socket.io. 
 
+HOW TO RUN:
+- cd backend, run "npm install", then run "node app.js" (this should open port 8080 for localhost)
+- cd nets212, run "npm install", run "npm start" (this should open port 3000 for localhost)
+- Go to "localhost:3000" on your brower of choice
+
 Web App Description
 Backend
 Accounts, Walls, Home pages
